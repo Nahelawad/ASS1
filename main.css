@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200&family=Tilt+Prism&family=Tilt+Warp&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Inconsolata:wght@300;800&family=Merriweather:wght@700&family=Sono:wght@200&family=Tilt+Prism&family=Tilt+Warp&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.button{
+ background-color: #FFD700;
+ border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: grid;
+  font-size: 26px;
+  float: right;
+  font-family: 'Inconsolata', monospace;
+  padding: 20px;
+
+}
+
+
+header {
+    background-color: black;
+    color: #FFD700;
+    font-family: 'Sono', sans-serif;
+    padding: 40px;
+    grid-area: header;
+}
+
+nav {
+    background-color:#FFD700;
+    grid-area: nav;
+}
+
+main {
+    background-color: black;
+    color: #FFD700;
+    grid-area: main;
+    font-size: 37px;
+    font-family: 'Inconsolata', monospace;
+    display: grid;
+    padding: 135px;
+    
+    padding-left: 6%;
+    row-gap: 1em;
+    
+}
+
+
+.social_icon{
+    color: #FFD700;
+    font-size: 50px;
+    text-decoration: none;
+    margin: 241px 35px;
+    float:left;
+}
+.social_icon :hover{
+    color: orange;
+    
+}
+
+aside {
+    background-color: black;
+    grid-area: aside;
+    padding: 161px;
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  
+    padding: 18px;
+    display: grid;
+    
+
+    border-radius:15%;
+  }
+
+
+footer {
+    background-color: black;
+    color: #FFD700;
+    grid-area: footer;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    text-align: center;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-family: 'Sono', sans-serif;
+}
+
+nav ul a:hover{
+    color: blue;
+}
+

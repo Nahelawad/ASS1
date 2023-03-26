@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200&family=Tilt+Prism&family=Tilt+Warp&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Inconsolata:wght@300;800&family=Merriweather:wght@700&family=Sono:wght@200&family=Tilt+Prism&family=Tilt+Warp&display=swap');
+
+
+
+
+
+
+body {
+    display: grid;
+    grid-template-columns: 11% 43% 46%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header header"
+        "nav nav nav"
+        "main main aside"
+        "footer footer footer"
+
+}
+
+
+ .nahel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  
+    padding: 45px;
+    display: grid;
+    
+
+    border-radius: 45%;
+    cursor: pointer;
+    
+  }
+  
+@keyframes bounce{
+    20%,50%,80%,to{
+        transform: translate(0);
+
+
+    }
+
+    40%{
+        transform: translate(-30px);
+    }
+
+    70%{
+        transform: translate(-15px);
+    }
+    90%{
+        transform: translate(-4px);
+    }
+
+}
+
+img:hover{
+    animation: bounce 1s linear;
+
+}
+
+/*drop down bar*/
+
+nav > ul >li{
+    position: relative;
+}
+
+nav ul ul{
+    position: absolute;
+    display: none;
+    background-color: #FFD700;
+    padding: 0%;
+    width: 100%;
+}
+
+nav > ul >li:hover ul{
+    display: block;
+}
+
+
+
+.portfolioMain{
+    background-color: black;
+    color: #FFD700;
+    grid-area: main;
+    font-size: 27px;
+    font-family: 'Inconsolata', monospace;
+    display: grid;
+    padding: 210px;
+    
+    padding-left: 13%;
+    row-gap: 8em;
+}
+
+.contactme{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row: auto;
+    padding-top: 10vh;
+    grid-column-gap: 3em;
+    font-size: 23px;
+    
+
+}
+
+.work{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    padding-top: 10vh;
+    grid-column-gap: 2em;
+    padding-left: 10%;
+}
